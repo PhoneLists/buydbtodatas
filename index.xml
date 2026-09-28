@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection'
+      expr:lang='data:blog.locale'
+      xmlns='http://www.w3.org/1999/xhtml'
+      xmlns:b='http://www.google.com/2005/gml/b'
+      xmlns:data='http://www.google.com/2005/gml/data'
+      xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <title>DB To Data - Phone, WhatsApp, Telegram &amp; Email Data</title>
+  <meta name='description' content='Explore phone number data, WhatsApp data, Telegram data and email data with country-wise database resources.'/>
+  <meta name='keywords' content='Phone Number Data, WhatsApp Data, Telegram Data, Email Data, Phone Number List, Database'/>
+  <b:include data='blog' name='all-head-content'/>
+  <b:skin><![CDATA[
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#172033;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* =========================
+   TOP BAR
+========================= */
+
+.topbar{
+    background:#0b1220;
+    color:#fff;
+    padding:10px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    font-size:14px;
+}
+
+.top-contact{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.top-contact a{
+    color:#fff;
+    font-weight:600;
+}
+
+.top-contact a:hover{
+    color:#55d6ff;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+    background:#ffffff;
+    border-bottom:1px solid #e4e7ec;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navbar{
+    max-width:1250px;
+    margin:auto;
+    padding:16px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#1264d8;
+    white-space:nowrap;
+}
+
+.logo span{
+    color:#101828;
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:5px;
+    list-style:none;
+}
+
+.nav-menu a{
+    display:block;
+    color:#344054;
+    padding:9px 11px;
+    border-radius:7px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.nav-menu a:hover{
+    background:#1264d8;
+    color:#fff;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    background:
+    linear-gradient(135deg,#0759c9,#123d86);
+    color:#fff;
+    padding:95px 20px;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:900px;
+    margin:auto;
+}
+
+.hero h1{
+    font-size:50px;
+    line-height:1.15;
+    margin-bottom:22px;
+}
+
+.hero p{
+    max-width:750px;
+    margin:0 auto 32px;
+    font-size:18px;
+    color:#e8f1ff;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.hero-btn{
+    display:inline-block;
+    background:#fff;
+    color:#0759c9;
+    padding:13px 25px;
+    border-radius:7px;
+    font-weight:700;
+}
+
+.hero-btn.secondary{
+    background:transparent;
+    border:1px solid rgba(255,255,255,.6);
+    color:#fff;
+}
+
+
+/* =========================
+   GENERAL
+========================= */
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:42px;
+}
+
+.section-title h2{
+    font-size:34px;
+    color:#101828;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#667085;
+}
+
+
+/* =========================
+   CATEGORY CARDS
+========================= */
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.category-card{
+    background:#fff;
+    border:1px solid #e4e7ec;
+    border-radius:14px;
+    padding:28px;
+    box-shadow:0 5px 20px rgba(16,24,40,.05);
+    transition:.25s;
+}
+
+.category-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(16,24,40,.10);
+}
+
+.category-icon{
+    width:52px;
+    height:52px;
+    border-radius:11px;
+    background:#eaf2ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    margin-bottom:17px;
+}
+
+.category-card h3{
+    color:#101828;
+    margin-bottom:9px;
+}
+
+.category-card p{
+    color:#667085;
+    font-size:14px;
+    margin-bottom:18px;
+}
+
+.category-card a{
+    color:#1264d8;
+    font-size:14px;
+    font-weight:700;
+}
+
+
+/* =========================
+   DATA SECTIONS
+========================= */
+
+.data-section{
+    border-top:1px solid #e5e7eb;
+    background:#fff;
+}
+
+.data-section:nth-of-type(even){
+    background:#f8fafc;
+}
+
+.link-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+}
+
+.data-link{
+    background:#fff;
+    border:1px solid #e1e5eb;
+    border-radius:9px;
+    padding:16px;
+    color:#344054;
+    font-size:14px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.data-link:hover{
+    color:#1264d8;
+    border-color:#1264d8;
+    transform:translateY(-2px);
+    box-shadow:0 5px 15px rgba(18,100,216,.08);
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about{
+    background:#101828;
+    color:#fff;
+}
+
+.about-box{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-box h2{
+    font-size:34px;
+    margin-bottom:18px;
+}
+
+.about-box p{
+    color:#d0d5dd;
+}
+
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-section{
+    background:#f4f7fb;
+}
+
+.contact-box{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.contact-card{
+    background:#fff;
+    border:1px solid #e4e7ec;
+    border-radius:13px;
+    padding:28px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(16,24,40,.04);
+}
+
+.contact-card .contact-icon{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.contact-card h3{
+    margin-bottom:9px;
+    color:#101828;
+}
+
+.contact-card p{
+    color:#667085;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.contact-card a{
+    color:#1264d8;
+    font-weight:700;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#080d18;
+    color:#fff;
+    text-align:center;
+    padding:38px 20px;
+}
+
+.footer-logo{
+    font-size:27px;
+    font-weight:800;
+    color:#55b8ff;
+}
+
+.footer-logo span{
+    color:#fff;
+}
+
+.footer-links{
+    margin:18px 0;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.footer-links a{
+    color:#d0d5dd;
+    font-size:14px;
+}
+
+.footer-links a:hover{
+    color:#55b8ff;
+}
+
+.footer-contact{
+    margin:15px 0;
+}
+
+.footer-contact a{
+    color:#fff;
+    margin:0 8px;
+}
+
+.copyright{
+    color:#98a2b3;
+    font-size:13px;
+    margin-top:15px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:950px){
+
+    .navbar{
+        flex-direction:column;
+    }
+
+    .category-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .link-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .contact-box{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:650px){
+
+    .topbar{
+        justify-content:center;
+        text-align:center;
+    }
+
+    .top-contact{
+        justify-content:center;
+        gap:10px;
+    }
+
+    .navbar{
+        padding:13px 15px;
+    }
+
+    .logo{
+        font-size:25px;
+    }
+
+    .nav-menu{
+        width:100%;
+    }
+
+    .nav-menu a{
+        font-size:12px;
+        padding:7px 8px;
+    }
+
+    .hero{
+        padding:65px 20px;
+    }
+
+    .hero h1{
+        font-size:35px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .category-grid{
+        grid-template-columns:1fr;
+    }
+
+    .link-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-box{
+        grid-template-columns:1fr;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+
+}
+
+
+  ]]></b:skin>
+</head>
+<body>
+
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="topbar">
+
+    <div>
+        <strong>24/7 Customer Support</strong>
+    </div>
+
+    <div class="top-contact">
+
+        <a href="https://wa.me/8801918754550"
+           target="_blank"
+           rel="noopener">
+            📱 WhatsApp: +8801918754550
+        </a>
+
+        <a href="https://t.me/Dbtodatac"
+           target="_blank"
+           rel="noopener">
+            ✈️ Telegram: @Dbtodatac
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     HEADER / MENU
+===================================================== -->
+
+<header>
+
+<nav class="navbar">
+
+    <a href="#home" class="logo">
+        DB <span>To Data</span>
+    </a>
+
+
+    <ul class="nav-menu">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/phone-number-list"
+               target="_blank"
+               rel="noopener">
+                Phone Number List
+            </a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/whatsapp-number-list"
+               target="_blank"
+               rel="noopener">
+                WhatsApp Number List
+            </a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/telegram-number-list"
+               target="_blank"
+               rel="noopener">
+                Telegram Number List
+            </a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/email-list"
+               target="_blank"
+               rel="noopener">
+                Email List
+            </a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/phone-number-library"
+               target="_blank"
+               rel="noopener">
+                Phone Number Library
+            </a>
+        </li>
+
+        <li>
+            <a href="https://phonelist.io/special-database"
+               target="_blank"
+               rel="noopener">
+                Special Database
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>
+            Global Data &amp; Database Resources
+        </h1>
+
+        <p>
+            Explore phone number data, WhatsApp data, Telegram data,
+            email data and country-specific database resources
+            from one convenient platform.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#categories" class="hero-btn">
+                Explore Categories
+            </a>
+
+            <a href="#contact" class="hero-btn secondary">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     DATABASE CATEGORIES
+===================================================== -->
+
+<section class="container" id="categories">
+
+    <div class="section-title">
+
+        <h2>Database Categories</h2>
+
+        <p>
+            Explore our main database categories and resources.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+
+        <!-- PHONE -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                📱
+            </div>
+
+            <h3>
+                Phone Number List
+            </h3>
+
+            <p>
+                Explore phone number list and country-specific
+                phone data resources.
+            </p>
+
+            <a href="https://phonelist.io/phone-number-list"
+               target="_blank"
+               rel="noopener">
+                View Phone Number List →
+            </a>
+
+        </div>
+
+
+        <!-- WHATSAPP -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                💬
+            </div>
+
+            <h3>
+                WhatsApp Number List
+            </h3>
+
+            <p>
+                Explore country-wise WhatsApp database resources.
+            </p>
+
+            <a href="https://phonelist.io/whatsapp-number-list"
+               target="_blank"
+               rel="noopener">
+                View WhatsApp List →
+            </a>
+
+        </div>
+
+
+        <!-- TELEGRAM -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                ✈️
+            </div>
+
+            <h3>
+                Telegram Number List
+            </h3>
+
+            <p>
+                Browse Telegram-related country database resources.
+            </p>
+
+            <a href="https://phonelist.io/telegram-number-list"
+               target="_blank"
+               rel="noopener">
+                View Telegram List →
+            </a>
+
+        </div>
+
+
+        <!-- EMAIL -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                ✉️
+            </div>
+
+            <h3>
+                Email List
+            </h3>
+
+            <p>
+                Explore country-specific email database resources.
+            </p>
+
+            <a href="https://phonelist.io/email-list"
+               target="_blank"
+               rel="noopener">
+                View Email List →
+            </a>
+
+        </div>
+
+
+        <!-- LIBRARY -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                📚
+            </div>
+
+            <h3>
+                Phone Number Library
+            </h3>
+
+            <p>
+                Access phone number library resources and
+                related data.
+            </p>
+
+            <a href="https://phonelist.io/phone-number-library"
+               target="_blank"
+               rel="noopener">
+                View Library →
+            </a>
+
+        </div>
+
+
+        <!-- SPECIAL -->
+
+        <div class="category-card">
+
+            <div class="category-icon">
+                🗃️
+            </div>
+
+            <h3>
+                Special Database
+            </h3>
+
+            <p>
+                Discover specialized database resources
+                and collections.
+            </p>
+
+            <a href="https://phonelist.io/special-database"
+               target="_blank"
+               rel="noopener">
+                View Special Database →
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PHONE NUMBER DATA
+===================================================== -->
+
+<section class="data-section" id="phone-data">
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h2>
+            📱 Phone Number Data
+        </h2>
+
+        <p>
+            Country-wise phone number data resources.
+        </p>
+
+    </div>
+
+
+    <div class="link-grid">
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/australia-number-data"
+           target="_blank">
+            Australia Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/belgium-number-data"
+           target="_blank">
+            Belgium Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/brazil-number-data"
+           target="_blank">
+            Brazil Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/cambodia-number-data"
+           target="_blank">
+            Cambodia Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/canada-number-data"
+           target="_blank">
+            Canada Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/greece-number-data"
+           target="_blank">
+            Greece Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/hong-kong-number-data"
+           target="_blank">
+            Hong Kong Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/india-number-data"
+           target="_blank">
+            India Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/indonesia-number-data"
+           target="_blank">
+            Indonesia Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iran-number-data"
+           target="_blank">
+            Iran Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/kuwait-number-data"
+           target="_blank">
+            Kuwait Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/new-zealand-number-data"
+           target="_blank">
+            New Zealand Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/lebanon-number-data"
+           target="_blank">
+            Lebanon Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/malaysia-number-data"
+           target="_blank">
+            Malaysia Number Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/mexico-number-data"
+           target="_blank">
+            Mexico Number Data
+        </a>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHATSAPP DATA
+===================================================== -->
+
+<section class="data-section" id="whatsapp-data">
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h2>
+            💬 WhatsApp Data
+        </h2>
+
+        <p>
+            Country-wise WhatsApp database resources.
+        </p>
+
+    </div>
+
+
+    <div class="link-grid">
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/australia-whatsapp"
+           target="_blank">
+            Australia WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/belgium-whatsapp"
+           target="_blank">
+            Belgium WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/brazil-whatsapp"
+           target="_blank">
+            Brazil WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/cambodia-whatsapp"
+           target="_blank">
+            Cambodia WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/canada-whatsapp"
+           target="_blank">
+            Canada WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/hong-kong-whatsapp"
+           target="_blank">
+            Hong Kong WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/india-whatsapp"
+           target="_blank">
+            India WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/indonesia-whatsapp"
+           target="_blank">
+            Indonesia WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iran-whatsapp"
+           target="_blank">
+            Iran WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iraq-whatsapp"
+           target="_blank">
+            Iraq WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/laos-whatsapp"
+           target="_blank">
+            Laos WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/lebanon-whatsapp"
+           target="_blank">
+            Lebanon WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/malaysia-whatsapp"
+           target="_blank">
+            Malaysia WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/mexico-whatsapp"
+           target="_blank">
+            Mexico WhatsApp
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/netherlands-whatsapp"
+           target="_blank">
+            Netherlands WhatsApp
+        </a>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     TELEGRAM DATA
+===================================================== -->
+
+<section class="data-section" id="telegram-data">
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h2>
+            ✈️ Telegram Data
+        </h2>
+
+        <p>
+            Country-wise Telegram database resources.
+        </p>
+
+    </div>
+
+
+    <div class="link-grid">
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/australia-telegram"
+           target="_blank">
+            Australia Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/belgium-telegram"
+           target="_blank">
+            Belgium Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/brazil-telegram"
+           target="_blank">
+            Brazil Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/cambodia-telegram"
+           target="_blank">
+            Cambodia Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/canada-telegram"
+           target="_blank">
+            Canada Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/hong-kong-telegram"
+           target="_blank">
+            Hong Kong Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/india-telegram"
+           target="_blank">
+            India Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/indonesia-telegram"
+           target="_blank">
+            Indonesia Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iran-telegram"
+           target="_blank">
+            Iran Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iraq-telegram"
+           target="_blank">
+            Iraq Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/israel-telegram"
+           target="_blank">
+            Israel Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/italy-telegram"
+           target="_blank">
+            Italy Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/japan-telegram"
+           target="_blank">
+            Japan Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/korea-telegram"
+           target="_blank">
+            Korea Telegram
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/kuwait-telegram"
+           target="_blank">
+            Kuwait Telegram
+        </a>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EMAIL DATA
+===================================================== -->
+
+<section class="data-section" id="email-data">
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h2>
+            ✉️ Email Data
+        </h2>
+
+        <p>
+            Country-wise email database resources.
+        </p>
+
+    </div>
+
+
+    <div class="link-grid">
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/australia-email-data"
+           target="_blank">
+            Australia Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/belgium-email-data"
+           target="_blank">
+            Belgium Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/brazil-email-data"
+           target="_blank">
+            Brazil Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/canada-email-data"
+           target="_blank">
+            Canada Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/hong-kong-email-data"
+           target="_blank">
+            Hong Kong Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/india-email-data"
+           target="_blank">
+            India Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/indonesia-email-data"
+           target="_blank">
+            Indonesia Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/iraq-email-data"
+           target="_blank">
+            Iraq Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/israel-email-data"
+           target="_blank">
+            Israel Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/italy-email-data"
+           target="_blank">
+            Italy Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/japan-email-data"
+           target="_blank">
+            Japan Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/korea-email-data"
+           target="_blank">
+            Korea Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/kuwait-email-data"
+           target="_blank">
+            Kuwait Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/laos-email-data"
+           target="_blank">
+            Laos Email Data
+        </a>
+
+
+        <a class="data-link"
+           href="https://dbtodata.com/lebanon-email-data"
+           target="_blank">
+            Lebanon Email Data
+        </a>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about">
+
+<div class="container">
+
+    <div class="about-box">
+
+        <h2>
+            About DB To Data
+        </h2>
+
+        <p>
+            DB To Data is a centralized resource platform for
+            exploring different database categories and
+            country-specific data resources. Browse phone number,
+            WhatsApp, Telegram and email-related resources through
+            organized category sections.
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact-section" id="contact">
+
+<div class="container">
+
+    <div class="section-title">
+
+        <h2>
+            Contact &amp; Resources
+        </h2>
+
+        <p>
+            Connect with us directly or explore our database resources.
+        </p>
+
+    </div>
+
+
+    <div class="contact-box">
+
+
+        <!-- WHATSAPP -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                📱
+            </div>
+
+            <h3>
+                WhatsApp
+            </h3>
+
+            <p>
+                Contact us directly through WhatsApp.
+            </p>
+
+            <a href="https://wa.me/8801918754550"
+               target="_blank"
+               rel="noopener">
+                +8801918754550 →
+            </a>
+
+        </div>
+
+
+        <!-- TELEGRAM -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                ✈️
+            </div>
+
+            <h3>
+                Telegram
+            </h3>
+
+            <p>
+                Connect with us directly on Telegram.
+            </p>
+
+            <a href="https://t.me/Dbtodatac"
+               target="_blank"
+               rel="noopener">
+                @Dbtodatac →
+            </a>
+
+        </div>
+
+
+        <!-- DATABASE -->
+
+        <div class="contact-card">
+
+            <div class="contact-icon">
+                🗃️
+            </div>
+
+            <h3>
+                Database Resources
+            </h3>
+
+            <p>
+                Explore our available database categories.
+            </p>
+
+            <a href="#categories">
+                Explore Categories →
+            </a>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-logo">
+        DB <span>To Data</span>
+    </div>
+
+
+    <div class="footer-contact">
+
+        <a href="https://wa.me/8801918754550"
+           target="_blank"
+           rel="noopener">
+            📱 +8801918754550
+        </a>
+
+        <a href="https://t.me/Dbtodatac"
+           target="_blank"
+           rel="noopener">
+            ✈️ @Dbtodatac
+        </a>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#categories">
+            Categories
+        </a>
+
+        <a href="#phone-data">
+            Phone Data
+        </a>
+
+        <a href="#whatsapp-data">
+            WhatsApp
+        </a>
+
+        <a href="#telegram-data">
+            Telegram
+        </a>
+
+        <a href="#email-data">
+            Email
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </div>
+
+
+    <p class="copyright">
+        © 2026 DB To Data. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+
+
+<!-- Required Blogger section -->
+<b:section id='blogger-section' class='blog' maxwidgets='1' showaddelement='no'>
+  <b:widget id='HTML999' locked='true' title='' type='HTML' version='2' visible='false'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+      <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <div></div>
+      </b:if>
+    </b:includable>
+  </b:widget>
+</b:section>
+
+</body>
+</html>
